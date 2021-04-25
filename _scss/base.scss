@@ -29,19 +29,6 @@ $breakpoints: (
   }
 }
 
-.flex {
-  @include flex (50%, space-between);
-}
-
-.wrapper {
-  width: 94%;
-  margin-left: auto;
-  margin-right: auto;
-
-  @include mq('desktop') {
-    width: 98%;
-  }
-}
 
 $colors: (
   "dark": #030323,
@@ -50,13 +37,184 @@ $colors: (
    "white": #fff
 );
 
+.flex {
+  @include flex (50%, space-between);
+
+  &.flip {
+    @include mq('desktop') {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &.together {
+    justify-content: unset;
+
+    & > * {
+      margin-right: 20px;
+    }
+  }
+}
+
+.fifty {
+  @include mq('desktop') {
+    max-width: 50%;
+    width: 50%;
+    padding-right: 10%;
+  }
+}
+
+.quarter {
+  @include mq('desktop') {
+    max-width: 26%;
+    width: 26%;
+  }
+}
+
+.fifth {
+  @include mq('desktop') {
+    max-width: 20%;
+    width: 20%;
+  }
+}
+
+.block {
+  background-color: map_get($colors, 'cream');
+  padding-left: 20px;
+  padding-top: 20px;
+  position: relative;
+  z-index: 1;
+
+  @include mq('desktop') {
+    max-width: 50%;
+    width: 50%;
+    padding-right: 10%;
+    padding-bottom: 30vw;
+  }
+}
+
+.wrapper {
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include mq('desktop') {
+    width: 96%;
+  }
+
+  &.extra {
+    @include mq('desktop') {
+      width: 70%;
+    }
+  }
+}
+
+h1 {
+  font-family: 'Gotham';
+  font-weight: normal;
+
+  &.mega {
+    font-family: 'Dala Floda Roman';
+    font-size: 170px;
+    line-height: 0.5;
+  }
+}
+
+h2 {
+  font-family: 'Gotham';
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Big Caslon';
+  font-weight: normal;
+}
+
+p {
+  font-family: 'Gotham';
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+
+  &.serif {
+    font-family: 'Big Caslon';
+    font-weight: normal;
+  }
+
+  &.large {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.3;
+
+    @include mq('desktop') {
+      font-size: 37px;
+    }
+  }
+
+  &.large.serif {
+    font-size: 26px;
+
+    @include mq('desktop') {
+      font-size: 40px;
+    }
+  }
+}
+
+.list {
+  ul {
+    li {
+      font-family: 'Big Caslon';
+      font-size: 24px;
+      font-weight: normal;
+      color: #fff;
+      border-bottom: 1px solid #fff;
+      display: block;
+      width: max-content;
+
+      @include mq('desktop') {
+        font-size: 50px;
+      }
+    }
+  }
+}
+
+.num {
+  margin-right: 10px;
+  width: 30%;
+
+  h1 {
+    font-family: 'Dala Floda Roman';
+    font-variant-numeric: lining-nums;
+    font-size: 170px;
+    line-height: 0.9;
+    margin-bottom: 0;
+    color: map_get($colors, 'dark');
+  }
+  p {
+    margin-top: -20px;
+    color: map_get($colors, 'dark');
+
+    .small & {
+      margin-top: -10px;
+    }
+  }
+}
+
 body {
   background-color: map_get($colors, 'dark');
+  font-family: 'Gotham';
 }
 
 header {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+section, footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 ul {
@@ -87,6 +245,11 @@ header {
   }
 }
 
+.texture {
+  width: 100%;
+  height: auto;
+}
+
 .ew-home-top {
   min-height: 100vh;
   background-color: black;
@@ -113,7 +276,89 @@ header {
   position: absolute;
   bottom: 0;
   min-height: 50vh;
-  padding-bottom: 10px;
-  padding-left: 10px;
   z-index: 10;
+
+  p {
+    color: map_get($colors, 'white');
+    margin-bottom: 0;
+    padding-bottom: 10px;
+  }
+}
+
+.ew-home-intro, .ew-experts {
+  h1, h2, p {
+    color: map_get($colors, 'white');
+  }
+}
+
+.ew-where-we-work {
+  position: relative;
+
+  h2 {
+    color: map_get($colors, 'white');
+  }
+}
+
+.ew-texture {
+  position: absolute;
+  top: 20vh;
+  z-index: 0;
+}
+
+.flip + .ew-image + .ew-texture {
+  left: auto;
+  right: 0;
+}
+
+.flip + .ew-image  img {
+  margin-left: unset;
+  margin-right: auto;
+}
+
+.flip .block {
+  margin-left: 5%;
+}
+
+.ew-image {
+  position: relative;
+  z-index: 1;
+  @include mq('desktop') {
+    margin-top: -30vw;
+  }
+
+  img {
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    display: block;
+  }
+}
+
+.ew-how {
+  p {
+    color: map_get($colors, 'white');
+  }
+}
+
+.ew-experts {
+  .flex {
+    margin-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+.ew-press {
+  background-color: map_get($colors, 'cream');
+  padding-top: 80px;
+
+  h1, h2, p {
+    color: map_get($colors, 'dark');
+  }
+}
+
+footer {
+  h2 {
+    color: map_get($colors, 'white');
+    margin-bottom: 0px;
+  }
 }

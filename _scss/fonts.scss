@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('/assets/Gotham-Bold.woff2') format('woff2'),
+        url('/assets/Gotham-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('/assets/Gotham-Light.woff2') format('woff2'),
+        url('/assets/Gotham-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('/assets/Gotham-Medium.woff2') format('woff2'),
+        url('/assets/Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('/assets/Gotham-Book.woff2') format('woff2'),
+        url('/assets/Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Big Caslon';
+    src: url('/assets/BigCaslon-Medium.woff2') format('woff2'),
+        url('/assets/BigCaslon-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dala Floda Roman';
+    src: url('/assets/DalaFloda-Roman.woff2') format('woff2'),
+        url('/assets/DalaFloda-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
