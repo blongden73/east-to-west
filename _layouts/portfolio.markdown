@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <section class="ew-where-we-work">
   <div class="wrapper">
     <div class="flex">
