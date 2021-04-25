@@ -1,3 +1,5 @@
+{% assign nav = site.menu %}
+{{nav}}
 <header>
   <div class="wrapper">
     <div class="flex">
@@ -6,10 +8,9 @@
       </div>
       <div class="right">
         <ul>
-          {% assign menu = site.menu %}
-          {% for item in menu %}
-            <li>{{item.title}}</li>
-          {% endfor%}
+          {% for items in nav %}
+            <li>{{items.title}}</li>
+          {% endfor %}
         </ul>
       </div>
     </div>
