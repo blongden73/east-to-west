@@ -1,8 +1,8 @@
 ---
 title: Brazos Lofts
 date: 2021-04-26 00:01:00 Z
-Images:
-- Image: 
+tags:
+- Residential
 Cover Image: "/uploads/001_brazos-lofts.jpg"
 Type: Residential
 ---
