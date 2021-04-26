@@ -1,5 +1,5 @@
 ---
-title: BAYLOR UNIVERSITY
+title: Baylor University
 date: 2021-04-26 00:07:00 Z
 Cover Image: "/uploads/baylor.jpg"
 Type: Student Housing
