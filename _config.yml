@@ -26,6 +26,14 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: projects
+  values:
+    Images:
+    - Image:
+    Cover Image: "/uploads/001_brazos-lofts.jpg"
+    Type: Residential
 permalink: pretty
 sass:
   sass_dir: "./_scss"

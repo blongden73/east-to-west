@@ -210,11 +210,31 @@ p {
 body {
   background-color: map_get($colors, 'dark');
   font-family: 'Gotham';
+
+  &.portfolio {
+    background-color: map_get($colors, 'cream');
+  }
 }
 
 header {
   padding-top: 20px;
   padding-bottom: 20px;
+
+  &.cream {
+    background-color: map_get($colors, 'cream');
+
+    svg {
+      path {
+        fill: map_get($colors, 'dark');
+      }
+    }
+
+    ul {
+      li {
+        color: map_get($colors, 'dark');
+      }
+    }
+  }
 }
 
 section, footer {
@@ -312,6 +332,14 @@ header {
   position: absolute;
   top: 20vh;
   z-index: 0;
+
+  &.portfolio {
+    svg {
+      path {
+        stroke: map_get($colors, 'dark');
+      }
+    }
+  }
 }
 
 .flip + .ew-image + .ew-texture {
@@ -341,6 +369,10 @@ header {
     margin-left: auto;
     display: block;
   }
+
+  iframe {
+    height: 85vh;
+  }
 }
 
 .ew-how {
@@ -361,6 +393,12 @@ header {
   padding-top: 80px;
 
   h1, h2, p {
+    color: map_get($colors, 'dark');
+  }
+}
+
+.ew-projects {
+  h1 {
     color: map_get($colors, 'dark');
   }
 }
