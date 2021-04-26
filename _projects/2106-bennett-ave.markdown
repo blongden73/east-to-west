@@ -1,5 +1,5 @@
 ---
-title: 2106 BENNETT AVE
+title: 2106 Bennett Avenue
 date: 2021-04-26 00:09:00 Z
 Cover Image: "/uploads/BENNETT%20STREET.jpg"
 Type: Residential
