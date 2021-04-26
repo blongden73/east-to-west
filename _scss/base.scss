@@ -23,6 +23,7 @@ $breakpoints: (
   display: flex;
   flex-direction: column;
   justify-content: $justify;
+  flex-wrap: wrap;
 
   @include mq('desktop') {
     flex-direction: row;
@@ -40,6 +41,10 @@ $colors: (
 .flex {
   @include flex (50%, space-between);
 
+  &.mobile {
+    flex-direction: row;
+  }
+
   &.flip {
     @include mq('desktop') {
       flex-direction: row-reverse;
@@ -52,6 +57,97 @@ $colors: (
     & > * {
       margin-right: 20px;
     }
+  }
+}
+
+.mobile-menu {
+  height: 100vh;
+  position: fixed;
+  background-color: map_get($colors, 'dark');
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  padding-left: 10px;
+  pointer-events: none;
+  opacity: 0;
+  padding-top: 150px;
+  transition: all ease-in-out 0.2s;
+
+  &.clicked {
+    pointer-events: all;
+    opacity: 1;
+  }
+
+  ul {
+    li {
+      color: map_get($colors, 'cream') !important;
+      font-family: 'Big Caslon';
+      font-weight: 200;
+      font-size: 60px;
+      border-bottom: 1px solid map_get($colors, 'cream');
+      width: max-content;
+
+      @include mq('desktop') {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+.menu {
+  display: none;
+  @include mq('desktop') {
+    display: flex;
+  }
+}
+
+.header {
+  &.clicked {
+    position: relative;
+    z-index: 2000;
+
+    svg {
+      path {
+        fill: map_get($colors, 'cream');
+      }
+    }
+  }
+}
+
+.hamburger {
+  display: block;
+  @include mq('desktop') {
+    display: none;
+  }
+
+  &.clicked {
+    z-index: 2000;
+    position: relative;
+
+    span {
+      background-color: map_get($colors, 'cream');
+
+      &:nth-child(2) {
+        opacity: 0;
+      }
+
+      &:nth-child(1) {
+        transform: rotate(45deg) translateY(11px) translateX(12px);
+      }
+
+      &:nth-child(3) {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+
+  span {
+    width: 30px;
+    height: 3px;
+    background-color: map_get($colors, 'dark');
+    margin-bottom: 5px;
+    display: block;
+    transition: all ease-in-out 0.2s;
   }
 }
 
@@ -79,10 +175,16 @@ $colors: (
 
 .block {
   background-color: map_get($colors, 'cream');
-  padding-left: 20px;
   padding-top: 20px;
   position: relative;
   z-index: 1;
+  width: 80%;
+
+  @include mq('desktop') {
+    width: 100%;
+    padding-left: 20px;
+  }
+
 
   @include mq('desktop') {
     max-width: 50%;
@@ -113,14 +215,24 @@ $colors: (
   }
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 h1 {
   font-family: 'Gotham';
   font-weight: 200;
 
   &.mega {
     font-family: 'Dala Floda Roman';
-    font-size: 170px;
-    line-height: 0.5;
+    font-size: 100px;
+    line-height: 1;
+
+    @include mq('desktop') {
+      font-size: 170px;
+      line-height: 0.5;
+    }
   }
 }
 
@@ -192,10 +304,15 @@ p {
   h1 {
     font-family: 'Dala Floda Roman';
     font-variant-numeric: lining-nums;
-    font-size: 170px;
-    line-height: 0.9;
     margin-bottom: 0;
     color: map_get($colors, 'dark');
+    font-size: 100px;
+    line-height: 1;
+
+    @include mq('desktop') {
+      font-size: 170px;
+    }
+
   }
   p {
     margin-top: -20px;
@@ -399,6 +516,25 @@ header {
 
 .ew-projects {
   h1 {
+    color: map_get($colors, 'dark');
+    margin-bottom: 120px;
+  }
+
+  .types {
+    margin-bottom: 80px;
+  }
+}
+
+.portfolio-card {
+  margin-bottom: 20px;
+  h2 {
+    margin-bottom: 0;
+    margin-top: 20px;
+    color: map_get($colors, 'dark');
+  }
+  p {
+    text-transform: capitalize;
+    margin-top: 10px;
     color: map_get($colors, 'dark');
   }
 }

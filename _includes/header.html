@@ -1,18 +1,30 @@
-{% assign nav = site.menu %}
+{% assign nav = site.menu | sort:"position" %}
 {{nav}}
 <header class="{%if page.title == 'Home' or page.title == 'Who we are' %}absolute{% endif %}{%if page.title == 'Portfolio' %}cream{% endif %}">
-  <div class="wrapper">
-    <div class="flex">
+  <div class="wrapper header">
+    <div class="flex mobile">
       <div class="left">
         <svg width="176" height="64" viewBox="0 0 176 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M74.56 50.834c0 8.442 2.111 10.852 8.946 11.656v.804H55.779v-.804c6.835-.803 8.945-3.214 8.945-11.656V0h9.846v50.834h-.01zM0 62.49c6.834-.803 8.945-3.214 8.945-11.656V12.46C8.945 4.018 6.835 1.607 0 .804V0h18.79v63.294H0v-.804zM36.504 19.188h.803v24.309h-.803c-1.81-9.245-4.618-11.55-14.27-11.753v-.804c9.652-.194 12.46-2.507 14.27-11.752zM62.49.804c-2.914.097-5.624.803-8.441 2.207-4.724 2.41-8.336 8.336-10.146 15.576h-.9L44.105 0H62.49v.804zM29.024 62.49c2.914-.097 5.625-.803 8.442-2.208 4.724-2.41 8.335-8.335 10.146-15.576h.9l-1.104 18.588H29.024v-.804zM77.156 0H95.54l1.104 18.587h-.9c-1.81-7.232-5.422-13.157-10.146-15.576C82.78 1.607 80.07.901 77.156.804V0z" fill="#fff"/><path d="M116.609 51.744L111.691 64h-.804L93.81 12.962C90.896 4.318 87.982 1.412 82.26.804V0h28.027v.804c-4.424.3-6.729 1.907-6.729 5.73 0 1.404.601 3.718 1.607 7.029l11.444 38.18zM149.28 51.744L144.353 64h-.803l-17.077-51.038c-2.914-8.644-5.828-11.55-11.55-12.158V0h28.026v.804c-4.423.3-6.728 1.907-6.728 5.73 0 1.404.6 3.718 1.607 7.029l11.452 38.18zM175.249 0v.804c-4.318.803-7.735 2.313-10.649 5.12-2.914 2.818-5.324 6.933-7.735 12.76l-.803-.397c.706-2.207 1.907-8.539 1.907-11.355 0-4.521-3.921-5.828-7.832-6.128V0h25.112z" fill="#fff"/></svg>
       </div>
       <div class="right">
-        <ul class="flex">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="flex menu">
           {% for items in nav %}
-            <li>{{items.title}}</li>
+            <li><a href="{{items.Link}}">{{items.title}}</a></li>
           {% endfor %}
         </ul>
       </div>
     </div>
+  </div>
+  <div class="mobile-menu">
+    <ul>
+      {% for items in nav %}
+        <li><a href="{{items.Link}}">{{items.title}}</a></li>
+      {% endfor %}
+    </ul>
   </div>
 </header>

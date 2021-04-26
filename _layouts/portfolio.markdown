@@ -6,7 +6,6 @@ layout: default
   <div class="wrapper">
     <div class="flex">
       <div class="left">
-        <h2>Where we work</h2>
       </div>
       <div uk-parallax="y: -300" class="right block">
         <div class="flex">
@@ -36,5 +35,22 @@ layout: default
 <section class="ew-projects">
   <div class="wrapper">
     <h1 class="mega">Our Projects</h1>
+    <ul class="flex together types">
+      {% for tag in site.types %}
+      <li><h2>{{tag.title}}</h2></li>
+      {% endfor %}
+    </ul>
+    <div class="flex">
+      {% assign projects = site.projects %}
+      {% for project in projects %}
+        <div class="quarter portfolio-card">
+          <img src="{{project.['Cover Image']}}">
+          <h2>{{project.Type}}</h2>
+          <p class="large serif">
+            {{project.title}}
+          </p>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>

@@ -20,3 +20,14 @@ window.addEventListener('load', function(){
     });
   }
 })
+
+function menu() {
+  var menu = document.querySelector('.hamburger');
+  var mobileMenu = document.querySelector('.mobile-menu');
+  var menuWrapper = document.querySelector('.wrapper.header');
+  menu.addEventListener('click', function(){
+    this.classList.toggle('clicked');
+    mobileMenu.classList.toggle('clicked');
+    menuWrapper.classList.toggle('clicked');
+  })
+}menu();
