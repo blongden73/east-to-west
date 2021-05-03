@@ -10,7 +10,10 @@ layout: default
     <div class="wrapper">
       <div class="flex">
         <div class="left quarter">
-          <p>East To West Capital is an independent private equity group specialising in real estate investments.</p>
+          <p><span uk-icon="icon: location; ratio: 0.8"></span> 330 Wells, Chicago</p>
+          <div class="location-tracker">
+            <div class="location-inner"></div>
+          </div>
         </div>
         <div class="right fifty">
         </div>
@@ -18,7 +21,7 @@ layout: default
     </div>
   </div>
   <div class="ew-home-video">
-    <video playsinline muted loop autoplay>
+    <video class="main-video" playsinline muted loop autoplay>
       <source src="assets/ew_small_top.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
@@ -32,10 +35,10 @@ layout: default
       </div>
       <div class="right fifty">
         <p class="large">
-          We identify imbalances in supply and demand, capital and information.
+          East To West Capital is an independent private equity group specialising in real estate investments.
         </p>
         <p class="large serif">
-          We are an active, hands on investors with sophisticated real estate development expertise and a strong network of global affiliations.
+          We identify imbalances in supply and demand, capital and information.
         </p>
       </div>
     </div>
@@ -89,17 +92,9 @@ layout: default
       </div>
       <div uk-parallax="y: -300" class="right block">
         <div class="flex small">
-          <div class="num">
-            <p class="large serif">Something</p>
-            <p>We consistently delivery marketleading returns to our clients with a 99% success.</p>
-          </div>
-          <div class="num">
-            <p class="large serif">Something</p>
-            <p>We work alongside our partners to delivery high impact sustainable projects.</p>
-          </div>
-          <div class="num">
-            <p class="large serif">Something</p>
-            <p>We are built to adapt to market trends and are comfortable in doing so.</p>
+          <div class="num full">
+            <p class="large serif">We connect investment and opportunity</p>
+            <p>We are an active, hands on investors with sophisticated real estate development expertise and a strong network of global affiliations.</p>
           </div>
         </div>
       </div>

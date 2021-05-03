@@ -301,6 +301,23 @@ p {
   margin-right: 10px;
   width: 30%;
 
+  &.full {
+    width: 100%;
+
+    p.large {
+      line-height: 0.9;
+      font-family: 'Dala Floda Roman';
+      font-size: 90px;
+      margin-bottom: 40px;
+      width: 100%;
+    }
+
+    p {
+      font-size: 18px;
+      width: 75%;
+    }
+  }
+
   h1 {
     font-family: 'Dala Floda Roman';
     font-variant-numeric: lining-nums;
@@ -537,6 +554,20 @@ header {
     margin-top: 10px;
     color: map_get($colors, 'dark');
   }
+}
+
+.location-tracker {
+  width: 175px;
+  height: 3px;
+  background-color: rgba(255,255,255,0.5);
+  margin-bottom: 30px;
+}
+
+.location-inner {
+  width: 0%;
+  height: 3px;
+  background-color: #fff;
+  transition: all ease-in-out;
 }
 
 footer {

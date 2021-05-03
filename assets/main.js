@@ -31,3 +31,19 @@ function menu() {
     menuWrapper.classList.toggle('clicked');
   })
 }menu();
+
+
+function video() {
+  var homevideo = document.querySelector('.main-video');
+  var progress = document.querySelector('.location-inner');
+  homevideo.addEventListener("timeupdate", function() {
+    console.log('video playing');
+   // if the video is loaded and duration is known
+   if(!isNaN(this.duration)) {
+        var percent_complete = this.currentTime / this.duration * 100;
+        console.log(percent_complete);
+        console.log(progress);
+        progress.style.width = percent_complete + '%';
+    }
+});
+}video();
