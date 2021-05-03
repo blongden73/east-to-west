@@ -1,5 +1,5 @@
 ---
-title: MICRO-UNIT MULTIFAMILY BUILDINGS SELL FOR RECORD PRICE PER SF
+title: Micro-unit multifamily building sell for record price per sf
 date: 2021-05-03 18:09:00 Z
 Image: "/uploads/press1.jpeg"
 Link: https://www.bisnow.com/seattle/news/multifamily/microunit-multifamily-buildings-sell-for-record-price-per-sf-97973
