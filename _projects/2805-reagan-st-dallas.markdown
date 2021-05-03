@@ -5,5 +5,6 @@ tags:
 - Residential
 Cover Image: "/uploads/001_1647-milwaukee-avenue-chicago.jpg"
 Type: Residential
+Location: Texas
 ---
 
