@@ -5,6 +5,7 @@ tags:
 - Residential
 Cover Image: "/uploads/001_brazos-lofts.jpg"
 Type: Residential
+Location: Texas
 ---
 
 24 Multi Family Apartment loft unit development located in the heart of Midtown Houston.
