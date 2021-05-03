@@ -34,9 +34,10 @@ defaults:
     type: projects
   values:
     Images:
-    - Image: 
+    - Image:
     Cover Image: "/uploads/001_brazos-lofts.jpg"
     Type: Residential
+    Location: Location
 permalink: pretty
 sass:
   sass_dir: "./_scss"
