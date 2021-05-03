@@ -93,3 +93,47 @@ function counting(){
     }
   });
 }counting();
+
+function filter(){
+  var url = window.location.href;
+  if(url.includes('?')) {
+    var urlSplit = url.split('?');
+    var tidyUrl = urlSplit[1].toLowerCase();
+  }
+  var selector = '[data-type="' + tidyUrl + '"]';
+  var projectsSelected = document.querySelectorAll(selector);
+  var allProjects = document.querySelectorAll('.portfolio-card');
+  var zeroprojects = document.querySelector('.zero-projects');
+  var filters = document.querySelector('.types');
+  var list = filters.querySelectorAll('li');
+  for(g=0; g<list.length; g++){
+    list[g].addEventListener('click', function(){
+      console.log('click');
+      var selected = this.dataset.type;
+      var tidyUrl = selected.toLowerCase();
+      var selector = '[data-type="' + tidyUrl + '"]';
+      var projectsSelected = document.querySelectorAll(selector);
+      this.classList.toggle('show');
+      
+      for(j=0; j<allProjects.length; j++){
+        allProjects[j].classList.add('hide');
+      }
+      for(i=0; i<projectsSelected.length; i++){
+        projectsSelected[i].classList.add('show');
+      }
+    });
+  }
+  console.log(projectsSelected);
+  if(url.includes('?')) {
+    for(j=0; j<allProjects.length; j++){
+      allProjects[j].classList.add('hide');
+    }
+    for(i=0; i<projectsSelected.length; i++){
+      projectsSelected[i].classList.add('show');
+    }
+    console.log('fliter mode', projectsSelected.length);
+    if(projectsSelected.length <= 1){
+      zeroprojects.classList.add('show');
+    }
+  }
+}filter();

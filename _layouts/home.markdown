@@ -115,6 +115,7 @@ layout: default
     <div class="flex">
       <div class="list">
         <ul>
+          <li><a href="/portfolio?Residential">Residential</a></li>
           <li><a href="/portfolio?Student-Housing">Student Housing</a></li>
           <li><a href="/portfolio?Hospitality">Hospitality</a></li>
           <li><a href="/portfolio?Multi-Family-Retail">Multi-Family Retail</a></li>
@@ -139,7 +140,12 @@ layout: default
     <div class="glider-contain">
       <div class="glider">
         {% for press in site.press %}
-          <div>your content here</div>
+          <div class="press-card">
+            <a href="{{press.Link}}"></a>
+            <img src="{{press.Image}}">
+            <h1>{{press.title}}</h1>
+            {{press.content}}
+          </div>
         {% endfor %}
       </div>
       <div class="carousel-controls">
