@@ -4,6 +4,7 @@ date: 2021-05-03 17:44:00 Z
 Cover Image: "/uploads/001_111-21st-ave-e-seattle-washington.jpg"
 Type: Residential
 Location: Seattle, Washington
+layout: project
 ---
 
 111 21st Ave E, Seattle, Washington 
