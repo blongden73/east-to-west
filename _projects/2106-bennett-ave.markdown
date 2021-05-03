@@ -6,6 +6,7 @@ tags:
 Cover Image: "/uploads/BENNETT%20STREET.jpg"
 Type: Residential
 Location: Texas
+layout: project
 ---
 
 22 Unit Multi-Family Apartment Development
