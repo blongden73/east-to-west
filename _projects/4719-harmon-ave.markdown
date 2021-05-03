@@ -5,6 +5,7 @@ tags:
 - Residential
 Cover Image: "/uploads/009_1647-milwaukee-avenue-chicago.jpg"
 Type: Residential
+Location: Texas
 ---
 
 48 Unit Multi Family Apartment Development
