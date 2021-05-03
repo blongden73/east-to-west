@@ -4,6 +4,7 @@ date: 2021-05-03 17:48:00 Z
 Cover Image: "/uploads/001_brazos-lofts-d3a7ab.jpg"
 Type: Student Housing
 Location: New York
+layout: project
 ---
 
 231 Dryden Road, Ithaca New York
