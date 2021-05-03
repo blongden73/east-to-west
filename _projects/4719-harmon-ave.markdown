@@ -6,6 +6,7 @@ tags:
 Cover Image: "/uploads/003_4719-harmon-ave-austin-texas.jpg"
 Type: Residential
 Location: Texas
+layout: project
 ---
 
 48 Unit Multi Family Apartment Development
