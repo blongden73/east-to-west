@@ -599,6 +599,10 @@ header {
   p {
     color: map_get($colors, 'white');
   }
+  a {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 8px;
+  }
 }
 
 .ew-experts {
@@ -716,6 +720,29 @@ header {
     left: 0;
     right: 0;
     z-index: 1000;
+  }
+}
+
+@mixin responsive-ratio($x,$y, $pseudo: false) {
+    $padding: unquote( ( $y / $x ) * 100 + '%' );
+    @if $pseudo {
+        &:before {
+            @include pseudo($pos: relative);
+            width: 100%;
+            padding-top: $padding;
+        }
+    } @else {
+        padding-top: $padding;
+    }
+}
+
+.press-image {
+  min-height: 65.4vh;
+
+  img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
   }
 }
 

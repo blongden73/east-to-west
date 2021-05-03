@@ -142,7 +142,9 @@ layout: default
         {% for press in site.press %}
           <div class="press-card">
             <a href="{{press.Link}}"></a>
-            <img src="{{press.Image}}">
+            <div class="press-image">
+              <img src="{{press.Image}}">
+            </div>
             <h1>{{press.title}}</h1>
             {{press.content}}
           </div>
