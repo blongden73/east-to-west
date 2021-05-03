@@ -10,15 +10,15 @@ layout: default
       <div uk-parallax="y: -300" class="right block">
         <div class="flex">
           <div class="num">
-            <h1>28</h1>
+            <h1 id="projects">0</h1>
             <p class="large serif">Projects</p>
           </div>
           <div class="num">
-            <h1>28</h1>
+            <h1 id="cities">0</h1>
             <p class="large serif">Cities</p>
           </div>
           <div class="num">
-            <h1>12</h1>
+            <h1 id="states">0</h1>
             <p class="large serif">US States</p>
           </div>
         </div>
@@ -40,15 +40,20 @@ layout: default
       <li><h2>{{tag.title}}</h2></li>
       {% endfor %}
     </ul>
-    <div class="flex">
+    <div class="flex portfolio-wrapper">
       {% assign projects = site.projects %}
       {% for project in projects %}
-        <div class="quarter portfolio-card">
-          <img src="{{project.['Cover Image']}}">
-          <h2>{{project.Type}}</h2>
-          <p class="large serif">
-            {{project.title}}
-          </p>
+        <div data-type="{{project.Type}}" class="third portfolio-card">
+          <a href="{{project.url}}"></a>
+          <div class="project-image-wrapper">
+            <img src="{{project.['Cover Image']}}">
+            <div class="project-info">
+              <h2>{{project.Location}} • {{project.Type}}</h2>
+              <p class="large serif">
+                {{project.title}}
+              </p>
+            </div>
+          </div>
         </div>
       {% endfor %}
     </div>
