@@ -5,6 +5,7 @@ tags:
 - Residential
 Cover Image: "/uploads/2805%20REAGAN.jpg"
 Type: Residential
+Location: Texas
 ---
 
 30 Unit Multi Family Apartment Development
