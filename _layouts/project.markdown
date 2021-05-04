@@ -25,3 +25,22 @@ layout: default
     </div>
   </div>
 </section>
+<section class="ew-how">
+  <div class="wrapper extra">
+    <div class="text-wrapper">
+      <p class="large serif">
+        Inside {{page.title}}
+      </p>
+    </div>
+  </div>
+</section>
+<section class="ew-project-images cream">
+  <div class="wrapper">
+    <div class="flex">
+      {% assign projectImages = page.Images %}
+      {% for image in projectImages %}
+        <img class="fifty" src="{{image.Image}}">
+      {% endfor %}
+    </div>
+  </div>
+</section>

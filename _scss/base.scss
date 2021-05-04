@@ -111,11 +111,12 @@ $colors: (
   ul {
     li {
       color: map_get($colors, 'cream') !important;
-      font-family: 'Big Caslon';
+      font-family: 'Dala Floda Roman';
       font-weight: 200;
-      font-size: 60px;
-      border-bottom: 1px solid map_get($colors, 'cream');
+      font-size: 70px;
       width: max-content;
+      text-transform: none;
+      letter-spacing: 0;
 
       @include mq('desktop') {
         font-size: 40px;
@@ -148,6 +149,12 @@ $colors: (
   display: block;
   @include mq('desktop') {
     display: none;
+  }
+
+  .who-we-are &, .project &, .contact & {
+    span {
+      background-color: #fff;
+    }
   }
 
   &.clicked {
@@ -215,11 +222,14 @@ $colors: (
   padding-top: 20px;
   position: relative;
   z-index: 1;
-  width: 80%;
+  width: 92.3%;
+  padding-left: 10px;
+  padding-bottom: 20vh;
 
   @include mq('desktop') {
     width: 100%;
     padding-left: 20px;
+    padding-bottom: unset;
   }
 
 
@@ -268,7 +278,7 @@ h1 {
 
   &.mega {
     font-family: 'Dala Floda Roman';
-    font-size: 100px;
+    font-size: 70px;
     line-height: 1;
 
     @include mq('desktop') {
@@ -322,10 +332,14 @@ p {
 }
 
 .list {
+  margin-bottom: 30px;
+  @include mq('desktop') {
+    margin-bottom: 0;
+  }
   ul {
     li {
       font-family: 'Big Caslon';
-      font-size: 24px;
+      font-size: 36px;
       font-weight: 200;
       color: #fff;
       display: block;
@@ -350,9 +364,13 @@ p {
     p.large {
       line-height: 1;
       font-family: 'Dala Floda Roman';
-      font-size: 66px;
+      font-size: 37px;
       margin-bottom: 40px;
       width: 100%;
+
+      @include mq('desktop') {
+        font-size: 66px;
+      }
     }
 
     p {
@@ -579,15 +597,34 @@ header {
 .ew-image {
   position: relative;
   z-index: 1;
+  margin-top: -30vw;
   @include mq('desktop') {
     margin-top: -30vw;
   }
 
+  video {
+    width: 100%;
+    height: 400px;
+    display: block;
+    object-fit: cover;
+
+    @include mq('desktop') {
+      height: auto;
+      width: 100%;
+    }
+  }
+
   img {
-    width: 95%;
-    height: auto;
+    width: 100%;
+    height: 400px;
     margin-left: auto;
     display: block;
+    object-fit: cover;
+
+    @include mq('desktop') {
+      height: auto;
+      width: 95%;
+    }
   }
 
   iframe {
@@ -607,8 +644,12 @@ header {
 
 .ew-experts {
   .flex {
-    margin-top: 80px;
+    margin-top: 20px;
     padding-bottom: 80px;
+
+    @include mq('desktop') {
+      margin-top: 80px;
+    }
   }
 }
 
@@ -695,6 +736,17 @@ header {
   }
 }
 
+.location {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  @include mq('desktop'){
+    position: relative;
+    top: unset;
+    bottom: unset;
+  }
+}
+
 .location-tracker {
   width: 225px;
   height: 3px;
@@ -750,6 +802,22 @@ footer {
   h2 {
     color: map_get($colors, 'white');
     margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  .fifth {
+    margin-bottom: 20px;
+  }
+
+  small {
+    color: map_get($colors, 'cream');
+    line-height: 1.2;
+    display: block;
+    margin-top: 30px;
+  }
+
+  svg {
+    margin-bottom: 10px;
   }
 
   &.cream {
@@ -759,8 +827,30 @@ footer {
     }
 
     svg {
+      margin-bottom: 20px;
       path {
         fill: map_get($colors, 'dark');
+      }
+    }
+  }
+}
+
+.ew-project-images {
+
+  &.cream {
+    background-color: map_get($colors, 'cream');
+  }
+
+  .flex {
+    align-items: flex-start;
+
+    .fifty {
+      margin-bottom: 20px;
+      @include mq('desktop') {
+        width: 50%;
+        height: auto;
+        padding-right: 2%;
+        margin-bottom: 2%;
       }
     }
   }

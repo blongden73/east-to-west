@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body class="{{page.title | handleize | downcase}}">
+  <body class="{{page.title | slugify | downcase}} {{page.layout | slugify | downcase}}">
 
     {% include header.html %}
 
