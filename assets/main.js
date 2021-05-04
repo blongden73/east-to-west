@@ -67,6 +67,8 @@ function menu() {
 function video() {
   var homevideo = document.querySelector('.main-video');
   var progress = document.querySelector('.location-inner');
+  var hometext = document.querySelector('.home-strap');
+  var welcometext = document.querySelector('.welcome-text');
   if(homevideo){
     homevideo.addEventListener("timeupdate", function() {
       console.log('video playing');
@@ -76,6 +78,17 @@ function video() {
           console.log(percent_complete);
           console.log(progress);
           progress.style.width = percent_complete + '%';
+
+          if(percent_complete >= 25) {
+            hometext.classList.add('hide');
+          }else {
+            hometext.classList.remove('hide');
+          }
+          if(percent_complete >= 35) {
+            welcometext.classList.add('show');
+          }else {
+            welcometext.classList.remove('show');
+          }
       }
     });
   }

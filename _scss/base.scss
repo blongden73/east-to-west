@@ -56,6 +56,11 @@ $colors: (
    "white": #fff
 );
 
+.ew-logo {
+  width: 170px;
+  height: auto;
+}
+
 .flex {
   @include flex (50%, space-between);
 
@@ -151,7 +156,7 @@ $colors: (
     display: none;
   }
 
-  .who-we-are &, .project &, .contact & {
+  .who-we-are &, .project &, .contact &, .home & {
     span {
       background-color: #fff;
     }
@@ -356,7 +361,11 @@ p {
 
 .num {
   margin-right: 10px;
-  width: 30%;
+  width: 50%;
+
+  @include mq('desktop') {
+    width: 30%;
+  }
 
   &.full {
     width: 100%;
@@ -533,6 +542,63 @@ header {
     color: map_get($colors, 'white');
     margin-bottom: 0;
     padding-bottom: 10px;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.home-strap {
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  transition: all ease-in-out 0.5s;
+
+  &.hide {
+    opacity: 1;
+    animation-name: fadeout;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+}
+
+.welcome-text {
+  position: absolute;
+  top: 27%;
+  transform: translateY(-50%);
+  opacity: 0;
+
+  &.show {
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+
+  h1 {
+    color: #fff;
+    font-family: 'Dala Floda Roman';
   }
 }
 
