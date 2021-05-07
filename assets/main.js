@@ -79,16 +79,17 @@ function video() {
           console.log(progress);
           progress.style.width = percent_complete + '%';
 
-          if(percent_complete >= 25) {
-            hometext.classList.add('hide');
-          }else {
-            hometext.classList.remove('hide');
-          }
-          if(percent_complete >= 35) {
-            welcometext.classList.add('show');
-          }else {
-            welcometext.classList.remove('show');
-          }
+          //for if we want to do something when the video is playing
+          // if(percent_complete >= 25) {
+          //   hometext.classList.add('hide');
+          // }else {
+          //   hometext.classList.remove('hide');
+          // }
+          // if(percent_complete >= 35) {
+          //   welcometext.classList.add('show');
+          // }else {
+          //   welcometext.classList.remove('show');
+          // }
       }
     });
   }
