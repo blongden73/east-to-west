@@ -79,7 +79,7 @@ function video() {
           console.log(progress);
           progress.style.width = percent_complete + '%';
 
-          //for if we want to do something when the video is playing
+          //for if we want to do something when the video is playingr
           // if(percent_complete >= 25) {
           //   hometext.classList.add('hide');
           // }else {
