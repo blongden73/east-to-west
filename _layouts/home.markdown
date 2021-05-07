@@ -121,10 +121,10 @@ layout: default
     <div class="flex">
       <div class="list">
         <ul>
-          <li><a href="/portfolio?Residential">Residential</a></li>
+          <li><a href="/portfolio?Residential">Multifamily</a></li>
           <li><a href="/portfolio?Student-Housing">Student Housing</a></li>
           <li><a href="/portfolio?Hospitality">Hospitality</a></li>
-          <li><a href="/portfolio?Multi-Family-Retail">Multi-Family Retail</a></li>
+          <li><a href="/portfolio?Industrial">Industrial</a></li>
           <li><a href="/portfolio?Office-Retail">Office & Retail</a></li>
           <li><a href="/portfolio?Senior-Living">Senior Living</a></li>
         </ul>
