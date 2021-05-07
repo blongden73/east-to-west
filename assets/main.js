@@ -98,26 +98,43 @@ function video() {
 function counting(){
   var projectNumber = document.querySelector('#projects');
   document.addEventListener('scroll', function(){
-    if(elementInViewport(projectNumber) && !projectNumber.classList.contains('counted')){
+    if(elementInViewport(projectNumber) && !projectNumber.classList.contains('counted') && !projectNumber.classList.contains('projectPage')){
       setTimeout(function(){
       var countUp = new CountUp('projects', 0, 28);
       countUp.start();
       projectNumber.classList.add('counted');
-    }, 500)
+    }, 100)
 
       setTimeout(function(){
       var countUpTwo = new CountUp('cities', 0, 28);
       countUpTwo.start();
-    }, 750)
+    }, 200)
 
       setTimeout(function(){
       var countUpThree = new CountUp('states', 0, 12);
       countUpThree.start();
-    }, 1000)
+    }, 300)
     }else if(!elementInViewport(projectNumber)){
       projectNumber.classList.remove('counted');
     }
   });
+  if(projectNumber.classList.contains('projectPage')){
+    setTimeout(function(){
+      var countUp = new CountUp('projects', 0, 28);
+      countUp.start();
+      projectNumber.classList.add('counted');
+    }, 100)
+
+    setTimeout(function(){
+      var countUpTwo = new CountUp('cities', 0, 28);
+      countUpTwo.start();
+    }, 200)
+
+    setTimeout(function(){
+      var countUpThree = new CountUp('states', 0, 12);
+      countUpThree.start();
+    }, 300)
+  }
 }counting();
 
 function filter(){

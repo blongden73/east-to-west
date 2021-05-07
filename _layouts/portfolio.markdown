@@ -10,21 +10,21 @@ layout: default
       <div uk-parallax="y: -300" class="right block">
         <div class="flex">
           <div class="num">
-            <h1 id="projects">0</h1>
+            <h1 class="projectPage" id="projects">0</h1>
             <p class="large serif">Projects</p>
           </div>
           <div class="num">
-            <h1 id="cities">0</h1>
+            <h1 class="projectPage" id="cities">0</h1>
             <p class="large serif">Cities</p>
           </div>
           <div class="num">
-            <h1 id="states">0</h1>
+            <h1 class="projectPage" id="states">0</h1>
             <p class="large serif">US States</p>
           </div>
         </div>
       </div>
     </div>
-    <div uk-parallax="y: -200" class="ew-image full">
+    <div uk-parallax="y: -200" class="ew-image full map">
       <iframe src="https://www.atlistmaps.com/map/9ae06152-1f08-42a4-9d1d-f6f8a03434c7?share=true" allow="geolocation" width="100%" height="400px" frameborder="0" scrolling="no" allowfullscreen></iframe>
     </div>
     <div class="ew-texture full portfolio">

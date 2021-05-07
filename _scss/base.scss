@@ -668,6 +668,10 @@ header {
     margin-top: -30vw;
   }
 
+  &.map {
+    background-color: map_get($colors, 'dark');
+  }
+
   video {
     width: 100%;
     height: 400px;
