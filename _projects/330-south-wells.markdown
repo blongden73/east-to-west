@@ -12,7 +12,7 @@ Images:
 Cover Image: "/uploads/The-Loop-40-scaled.jpg"
 Type: Residential
 Location: Chicago
-layout: portfolio
+layout: project
 ---
 
 330 South Wells Street, Chicago
