@@ -13,7 +13,7 @@ layout: default
     <div class="wrapper location">
       <div class="flex">
         <div class="left quarter">
-          <p><span uk-icon="icon: location; ratio: 0.8"></span> 330 South Wells, Chicago</p>
+          <p><span uk-icon="icon: location; ratio: 0.8"></span> <a href="/projects/330-south-wells/">330 South Wells, Chicago</a></p>
           <div class="location-tracker">
             <div class="location-inner"></div>
           </div>
@@ -103,7 +103,7 @@ layout: default
       </div>
     </div>
     <div uk-parallax="y: -200" class="ew-image full">
-      <p class="locator-text"><span uk-icon="icon: location; ratio: 0.8"></span> Cornell University</p>
+      <p class="locator-text"><span uk-icon="icon: location; ratio: 0.8"></span> <a href="/projects/cornell-university/">The Lux, Cornell University</a></p>
       <video autoplay muted loop playsinline>
         <source src="/uploads/TheLux5_lower_smaller.mp4" type="video/mp4">
       </video>
