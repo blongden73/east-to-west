@@ -845,6 +845,7 @@ header {
 .press-card {
   display: flex;
   flex-direction: column;
+  position: relative;
 
   a {
     position: absolute;
