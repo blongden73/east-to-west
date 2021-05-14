@@ -1,5 +1,5 @@
 ---
-title: Cornell University
+title: The Lux, Cornell University
 date: 2021-05-03 17:48:00 Z
 Images:
 - Image: "/uploads/001_1647-milwaukee-avenue-chicago-e0351b.jpg"
