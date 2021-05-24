@@ -14,7 +14,7 @@ Images:
 - Image: "/uploads/010_1647-milwaukee-avenue-chicago-1ede17.jpg"
 - Image: "/uploads/011_1647-milwaukee-avenue-chicago-57d3b7.jpg"
 Cover Image: "/uploads/003_4719-harmon-ave-austin-texas.jpg"
-Type: Residential
+Type: Multifamily Residential
 Location: Texas
 layout: project
 ---
