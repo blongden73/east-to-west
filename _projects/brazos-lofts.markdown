@@ -14,7 +14,7 @@ Images:
 - Image: "/uploads/017_brazos-lofts.jpg"
 - Image: "/uploads/022_brazos-lofts.jpg"
 Cover Image: "/uploads/001_brazos-lofts.jpg"
-Type: Residential
+Type: Multifamily Residential
 Location: Texas
 layout: project
 ---
