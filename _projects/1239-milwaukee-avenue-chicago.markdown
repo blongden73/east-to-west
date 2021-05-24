@@ -9,7 +9,7 @@ Images:
 - Image: "/uploads/010_1647-milwaukee-avenue-chicago-297df1.jpg"
 - Image: "/uploads/011_1647-milwaukee-avenue-chicago-ee3351.jpg"
 Cover Image: "/uploads/001_1647-milwaukee-avenue-chicago-72da7a.jpg"
-Type: Residential
+Type: Multifamily Residential
 Location: Chicago
 layout: project
 ---
