@@ -16,7 +16,7 @@ Images:
 - Image: "/uploads/013_111-21st-ave-e-seattle-washington.jpg"
 - Image: "/uploads/015_111-21st-ave-e-seattle-washington.jpg"
 Cover Image: "/uploads/001_111-21st-ave-e-seattle-washington.jpg"
-Type: Residential
+Type: Multifamily Residential
 Location: Seattle, Washington
 layout: project
 ---
