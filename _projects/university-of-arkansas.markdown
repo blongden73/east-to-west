@@ -8,7 +8,6 @@ Images:
 - Image: "/uploads/006_1647-milwaukee-avenue-chicago-a949e5.jpg"
 - Image: "/uploads/007_university-of-arkansas.jpg"
 - Image: "/uploads/010_1647-milwaukee-avenue-chicago-7bd0bf.jpg"
-- Image: "/uploads/Deck%20(1).jpg"
 Cover Image: "/uploads/006_1647-milwaukee-avenue-chicago.jpg"
 Type: Student Housing
 Location: Arkansas
