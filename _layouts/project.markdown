@@ -29,7 +29,7 @@ layout: default
   <div class="wrapper extra">
     <div class="text-wrapper">
       <p class="large serif">
-        Inside {{page.title}}
+        {{page.title}}
       </p>
     </div>
   </div>
