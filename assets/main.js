@@ -100,13 +100,13 @@ function counting(){
   document.addEventListener('scroll', function(){
     if(elementInViewport(projectNumber) && !projectNumber.classList.contains('counted') && !projectNumber.classList.contains('projectPage')){
       setTimeout(function(){
-      var countUp = new CountUp('projects', 0, 28);
+      var countUp = new CountUp('projects', 0, 29);
       countUp.start();
       projectNumber.classList.add('counted');
     }, 100)
 
       setTimeout(function(){
-      var countUpTwo = new CountUp('cities', 0, 28);
+      var countUpTwo = new CountUp('cities', 0, 19);
       countUpTwo.start();
     }, 200)
 
