@@ -21,5 +21,5 @@ layout: project
 
 231 Dryden Road, Ithaca New York
 
-207 Bed Student Housing Development located adjacent to Cornell University Campus Entrance, currently under construction due for completion August 2018
+207 Bed Student Housing Development located adjacent to Cornell University Campus Entrance.
 
