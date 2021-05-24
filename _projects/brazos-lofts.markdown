@@ -4,16 +4,14 @@ date: 2021-04-26 00:01:00 Z
 tags:
 - Residential
 Images:
-- Image: "/uploads/002_brazos-lofts-6df1e5.jpg"
-- Image: "/uploads/001_1647-milwaukee-avenue-chicago-c1e610.jpg"
-- Image: "/uploads/004_2806-reagan-street-dallas-texas-8315b9.jpg"
-- Image: "/uploads/006_brazos-lofts.jpg"
-- Image: "/uploads/008_brazos-lofts.jpg"
-- Image: "/uploads/014_brazos-lofts.jpg"
-- Image: "/uploads/015_brazos-lofts.jpg"
-- Image: "/uploads/017_brazos-lofts.jpg"
-- Image: "/uploads/022_brazos-lofts.jpg"
-Cover Image: "/uploads/001_brazos-lofts.jpg"
+- Image: "/uploads/brazos.jpg"
+- Image: "/uploads/brazos2.jpg"
+- Image: "/uploads/brazos3.jpg"
+- Image: "/uploads/brazos4.jpg"
+- Image: "/uploads/brazos5.jpg"
+- Image: "/uploads/brazos6.jpg"
+- Image: "/uploads/brazos7.jpg"
+Cover Image: "/uploads/brazos-ab0d5f.jpg"
 Type: Multifamily Residential
 Location: Texas
 layout: project
