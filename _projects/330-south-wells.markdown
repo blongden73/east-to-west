@@ -10,7 +10,7 @@ Images:
 - Image: "/uploads/01-330-1-Bedroom-1.jpg"
 - Image: "/uploads/06-330-1-Bedroom.jpg.jpg"
 Cover Image: "/uploads/330S%20Wells%20-01.jpg"
-Type: Residential
+Type: Multifamily Residential
 Location: Chicago
 layout: project
 ---
