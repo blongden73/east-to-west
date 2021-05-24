@@ -15,5 +15,5 @@ Location: Texas
 layout: project
 ---
 
-Six, 6 bedroom Student Townhouses located walking distance to Baylor University.
+Twelve 6 bedroom student townhouses located walking distance to Baylor University.
 
