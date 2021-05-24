@@ -16,7 +16,7 @@ Images:
 - Image: "/uploads/011_2806-reagan-street-dallas-texas.jpg"
 - Image: "/uploads/012_2806-reagan-street-dallas-texas.jpg"
 Cover Image: "/uploads/001_1647-milwaukee-avenue-chicago.jpg"
-Type: Residential
+Type: Multifamily Residential
 Location: Texas
 layout: project
 ---
