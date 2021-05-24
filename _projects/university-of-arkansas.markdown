@@ -17,5 +17,5 @@ layout: project
 
 688 North Whitham Avenue, Fayetteville, Arkansas
 
-Ten 6 bedroom Student Townhouses located walking distance to University of Arkansas Campus.
+Twenty 6 bedroom townhouses located walking distance to University of Arkansas Campus.
 
