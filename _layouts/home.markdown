@@ -116,17 +116,18 @@ layout: default
 <section class="ew-experts">
   <div class="wrapper extra">
     <h1 class="mega">
-      What we do
+      Asset Class Focus
     </h1>
     <div class="flex">
       <div class="list">
         <ul>
-          <li><a href="/portfolio?Residential">Multi Family Housing</a></li>
+          <li><a href="/portfolio?Residential">Multifamily Residential</a></li>
           <li><a href="/portfolio?Student-Housing">Student Housing</a></li>
           <li><a href="/portfolio?Hospitality">Hospitality</a></li>
           <li><a href="/portfolio?Industrial">Industrial</a></li>
           <li><a href="/portfolio?Office-Retail">Office & Retail</a></li>
           <li><a href="/portfolio?Senior-Living">Senior Living</a></li>
+          <li><a href="/portfolio?Land">Land</a></li>
         </ul>
       </div>
       <div class="quarter">
