@@ -12,7 +12,7 @@ Images:
 - Image: "/uploads/007_4715-harmon-ave-austin-texas.jpg"
 - Image: "/uploads/008_4715-harmon-ave-austin-texas.jpg"
 Cover Image: "/uploads/4715%20HARMON.jpg"
-Type: Residential
+Type: Multifamily Residential
 Location: Texas
 layout: project
 ---
