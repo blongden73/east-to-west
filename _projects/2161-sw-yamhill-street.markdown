@@ -15,7 +15,7 @@ Images:
 - Image: "/uploads/download%20(1).jpeg"
 - Image: "/uploads/download%20(2).jpeg"
 Cover Image: "/uploads/download.jpeg"
-Type: Residential
+Type: Multifamily Residential
 Location: Portland
 layout: project
 ---
