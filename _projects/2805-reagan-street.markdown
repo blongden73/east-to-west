@@ -9,7 +9,7 @@ Images:
 - Image: "/uploads/003_reagan-street-dallas-texas.jpg"
 - Image: "/uploads/004_reagan-street-dallas-texas.jpg"
 Cover Image: "/uploads/2805%20REAGAN.jpg"
-Type: Residential
+Type: Multifamily Residential
 Location: Texas
 layout: project
 ---
