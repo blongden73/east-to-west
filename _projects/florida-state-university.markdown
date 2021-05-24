@@ -2,12 +2,13 @@
 title: Florida State University
 date: 2021-05-03 17:53:00 Z
 Images:
-- Image: "/uploads/001_university-of-arkansas-63db1e.jpg"
-- Image: "/uploads/002_florida-state-university.jpg"
-- Image: "/uploads/003_university-of-arkansas-ae0b15.jpg"
-- Image: "/uploads/004_university-of-arkansas-ca569c.jpg"
-- Image: "/uploads/006_1647-milwaukee-avenue-chicago-753508.jpg"
-Cover Image: "/uploads/001_university-of-arkansas.jpg"
+- Image: "/uploads/1880Belle-Vue-Way-29%20(1).jpg"
+- Image: "/uploads/five67.com-25%20(2)%20copy.jpg"
+- Image: "/uploads/five67.com-29.jpg"
+- Image: "/uploads/five67.com-21.jpg"
+- Image: "/uploads/five67.com-35.jpg"
+- Image: "/uploads/five67.com-25%20(2).jpg"
+Cover Image: "/uploads/Cover%20Photo%20Seminole%20Cottages.jpg"
 Type: Student Housing
 Location: Florida
 layout: project
