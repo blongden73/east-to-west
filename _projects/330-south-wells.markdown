@@ -9,7 +9,7 @@ Images:
 - Image: "/uploads/04-330-Studio.jpg.jpg"
 - Image: "/uploads/01-330-1-Bedroom-1.jpg"
 - Image: "/uploads/06-330-1-Bedroom.jpg.jpg"
-Cover Image: "/uploads/The-Loop-40-scaled.jpg"
+Cover Image: "/uploads/330S%20Wells%20-01.jpg"
 Type: Residential
 Location: Chicago
 layout: project
