@@ -11,7 +11,7 @@ Images:
 - Image: "/uploads/005_bennett-street-dallas-texas.jpg"
 - Image: "/uploads/006_bennett-street-dallas-texas.jpg"
 Cover Image: "/uploads/BENNETT%20STREET.jpg"
-Type: Residential
+Type: Multifamily Residential
 Location: Texas
 layout: project
 ---
