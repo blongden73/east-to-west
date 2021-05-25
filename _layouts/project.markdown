@@ -39,7 +39,9 @@ layout: default
     <div class="flex">
       {% assign projectImages = page.Images %}
       {% for image in projectImages %}
-        <img class="fifty" src="{{image.Image}}">
+        <div class="project-image-wrapper">
+          <img class="fifty" src="{{image.Image}}">
+        </div>
       {% endfor %}
     </div>
   </div>
