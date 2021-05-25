@@ -12,6 +12,7 @@ Images:
 Cover Image: "/uploads/824_SW_9TH_ST_32601_3.jpg"
 Type: Student Housing
 Location: Florida
+layout: project
 ---
 
 824 SW 9th Street Gainesville, FL
