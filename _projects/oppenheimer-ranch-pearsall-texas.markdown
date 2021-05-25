@@ -2,9 +2,14 @@
 title: Oppenheimer Ranch. Pearsall Texas
 date: 2021-05-25 07:27:00 Z
 Images:
-- Image: 
-- Image: 
+- Image: "/uploads/9252_dji_0646.jpg"
+- Image: "/uploads/9252_dji_0630.jpg"
+- Image: "/uploads/9252_dji_0623.jpg"
+- Image: "/uploads/9252_dji_0613x.jpg"
+- Image: "/uploads/9252_dji_0364.jpg"
+Cover Image: "/uploads/9252_dji_0379x.jpg"
 Type: Land
 Location: Texas
 ---
 
+10,000 acre ranch in Texas acquired in February of 2021
