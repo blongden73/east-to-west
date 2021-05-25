@@ -28,17 +28,20 @@ layout: default
 {% if page.Video %}
 <section class="ew-where-we-work">
   <div class="wrapper">
-    <div class="flex flip">
+    <div class="flex">
       <div class="left">
 
       </div>
       <div uk-parallax="y: -300" class="right block">
         <div class="flex small">
+          <div class="num full">
+            <p class="large serif">Watch</p>
+          </div>
         </div>
       </div>
     </div>
     <div uk-parallax="y: -200" class="ew-image full">
-      <p class="locator-text"><span uk-icon="icon: location; ratio: 0.8"></span> <a href="/projects/cornell-university/">The Lux, Cornell University</a></p>
+      <p class="locator-text"><span uk-icon="icon: location; ratio: 0.8"></span> <a href="/projects/cornell-university/">{{page.title}}</a></p>
       <video autoplay muted loop playsinline>
         <source src="{{page.Video}}" type="video/mp4">
       </video>
