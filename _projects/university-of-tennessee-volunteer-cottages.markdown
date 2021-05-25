@@ -7,7 +7,7 @@ Images:
 - Image: "/uploads/_DSC7041.JPG"
 - Image: "/uploads/_DSC7033.JPG"
 - Image: "/uploads/IMG_1821.jpg"
-Cover Image: "/uploads/_DSC7036.JPG"
+Cover Image: "/uploads/DSC7036.JPG"
 Type: Student Housing
 layout: project
 ---
