@@ -9,6 +9,7 @@ Images:
 - Image: "/uploads/IMG_1821.jpg"
 Cover Image: "/uploads/_DSC7036.JPG"
 Type: Student Housing
+layout: project
 ---
 
 1519 Forest Ave Knoxville, TN
