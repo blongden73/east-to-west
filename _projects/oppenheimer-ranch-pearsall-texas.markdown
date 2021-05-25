@@ -5,5 +5,6 @@ Images:
 - Image: 
 - Image: 
 Type: Land
+Location: Texas
 ---
 
