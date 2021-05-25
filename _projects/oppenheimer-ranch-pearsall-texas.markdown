@@ -10,6 +10,7 @@ Images:
 Cover Image: "/uploads/9252_dji_0379x.jpg"
 Type: Land
 Location: Texas
+layout: project
 ---
 
 10,000 acre ranch in Texas acquired in February of 2021
