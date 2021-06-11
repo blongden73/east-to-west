@@ -535,7 +535,7 @@ header {
   box-sizing: border-box;
   position: absolute;
   bottom: 0;
-  min-height: 50vh;
+  min-height: 60vh;
   z-index: 10;
 
   p {
@@ -817,14 +817,24 @@ header {
   }
 }
 
+.ew-home-splash {
+  h1 {
+    color: #fff;
+    font-family: 'Dala Floda Roman';
+    @include mq('desktop'){
+      width: 48%;
+    }
+  }
+}
+
 .location {
   position: absolute;
   left: 10px;
   bottom: 10px;
   @include mq('desktop'){
-    position: relative;
+    position: absolute;
     top: unset;
-    bottom: unset;
+    bottom: 10px;
   }
 }
 
