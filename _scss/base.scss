@@ -606,6 +606,12 @@ header {
   h1, h2, p {
     color: map_get($colors, 'white');
   }
+
+  .right {
+    p {
+      margin-bottom: 30px;
+    }
+  }
 }
 
 .ew-where-we-work {
