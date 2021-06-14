@@ -1,6 +1,7 @@
 ---
 title: 2161 SW Yamhill Street
 date: 2021-05-03 17:46:00 Z
+position: 13
 Images:
 - Image: "/uploads/001_1647-milwaukee-avenue-chicago-35db53.jpg"
 - Image: "/uploads/004_2161-sw-yamhill-street.jpg"

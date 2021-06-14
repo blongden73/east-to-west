@@ -1,6 +1,7 @@
 ---
 title: The Redwood
 date: 2021-05-03 17:44:00 Z
+position: 0
 Images:
 - Image: "/uploads/001_111-21st-ave-e-seattle-washington-91c5f3.jpg"
 - Image: "/uploads/001_1647-milwaukee-avenue-chicago-202d29.jpg"

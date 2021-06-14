@@ -3,6 +3,7 @@ title: 4715 Harmon Avenue
 date: 2021-04-26 00:10:00 Z
 tags:
 - Residential
+position: 9
 Images:
 - Image: "/uploads/002_1647-milwaukee-avenue-chicago.jpg"
 - Image: "/uploads/002_4715-harmon-ave-austin-texas.jpg"

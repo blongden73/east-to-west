@@ -3,6 +3,7 @@ title: 2806 Reagan Street
 date: 2021-04-26 00:05:00 Z
 tags:
 - Residential
+position: 8
 Images:
 - Image: "/uploads/001_1647-milwaukee-avenue-chicago-8fa700.jpg"
 - Image: "/uploads/002_111-21st-ave-e-seattle-washington.jpg"
