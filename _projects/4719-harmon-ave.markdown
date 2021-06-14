@@ -1,5 +1,5 @@
 ---
-title: 4719 Harmon Ave
+title: 4719 Harmon Avenue
 date: 2021-04-26 00:10:00 Z
 tags:
 - Residential
