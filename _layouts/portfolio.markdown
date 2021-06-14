@@ -43,7 +43,7 @@ layout: default
     </ul>
     <div class="zero-projects">! We currently don't have these projects on our site, please email for more details</div>
     <div class="flex portfolio-wrapper">
-      {% assign projects = site.projects %}
+      {% assign projects = site.projects | sort: "position" %}
       {% for project in projects %}
         <div data-type="{{project.Type | slugify}}" class="third portfolio-card">
           <a href="{{project.url}}"></a>

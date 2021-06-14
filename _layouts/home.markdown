@@ -53,7 +53,7 @@ layout: default
   <div class="wrapper">
     <div class="flex">
       <div class="left">
-        <h2>Where we work</h2>
+        <h2>Real Estate</h2>
       </div>
       <div uk-parallax="y: -300" class="right block">
         <div class="flex">
