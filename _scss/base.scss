@@ -975,3 +975,9 @@ footer {
     object-fit: cover;
   }
 }
+
+.ew-map {
+  @include mq('desktop'){
+    width: 49%;
+  }
+}
