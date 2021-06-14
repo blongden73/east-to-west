@@ -1,5 +1,5 @@
 ---
-title: 2806 Reagan St
+title: 2806 Reagan Street
 date: 2021-04-26 00:05:00 Z
 tags:
 - Residential
