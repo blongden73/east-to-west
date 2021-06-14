@@ -1,7 +1,7 @@
 ---
 title: University Of Central Florida, Gator Cottages
 date: 2021-05-25 07:20:00 Z
-position: 6
+position: 4
 Images:
 - Image: "/uploads/824_SW_9TH_ST_32601_44.jpg"
 - Image: "/uploads/824_SW_9TH_ST_32601_9.jpg"
