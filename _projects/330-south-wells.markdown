@@ -1,7 +1,7 @@
 ---
 title: 330 South Wells
 date: 2021-05-14 09:46:00 Z
-position: 17
+position: 7
 Images:
 - Image: "/uploads/20-330-Resident-Lounge.jpg"
 - Image: "/uploads/12-330-Studio.jpg.jpg"
