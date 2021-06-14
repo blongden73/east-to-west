@@ -1,7 +1,7 @@
 ---
 title: Oppenheimer Ranch. Pearsall Texas
 date: 2021-05-25 07:27:00 Z
-position: 4
+position: 2
 Images:
 - Image: "/uploads/9252_dji_0646.jpg"
 - Image: "/uploads/9252_dji_0630.jpg"
