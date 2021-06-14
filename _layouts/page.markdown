@@ -7,7 +7,7 @@ layout: default
   <div class="wrapper extra">
     <div class="text-wrapper">
       <p class="large serif">
-        If you would like to contact us please email, <a href="mailto:info@easttowestcapital.com">info@easttowestcapital.com</a>
+        <a href="mailto:info@easttowestcapital.com">info@easttowestcapital.com</a>
       </p>
     </div>
   </div>
