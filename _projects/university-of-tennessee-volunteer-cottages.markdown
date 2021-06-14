@@ -9,6 +9,7 @@ Images:
 - Image: "/uploads/IMG_1821.jpg"
 Cover Image: "/uploads/DSC7036.JPG"
 Type: Student Housing
+Location: Tennessee
 layout: project
 ---
 
