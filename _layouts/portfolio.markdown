@@ -36,7 +36,8 @@ layout: default
   <div class="wrapper">
     <h1 class="mega">Our Projects</h1>
     <ul class="flex together types">
-      {% for tag in site.types %}
+      {% assign types = site.types | sort:"position" %}
+      {% for tag in types %}
       <li data-type="{{tag.title | slugify}}"><h2>{{tag.title}}</h2></li>
       {% endfor %}
     </ul>

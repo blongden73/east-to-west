@@ -99,7 +99,7 @@ layout: default
         <div class="flex small">
           <div class="num full">
             <p class="large serif">We provide investment to qualified opportunities</p>
-            <p>We are an active, hands on investors with sophisticated real estate development expertise and a strong network of global affiliations.</p>
+            <p>We are an active, hands on investor with sophisticated real estate development expertise and a strong network of global affiliations.</p>
           </div>
         </div>
       </div>
