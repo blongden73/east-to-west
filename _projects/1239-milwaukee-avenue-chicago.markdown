@@ -1,7 +1,7 @@
 ---
 title: 1239 Milwaukee Avenue
 date: 2021-05-03 17:43:00 Z
-position: 12
+position: 13
 Images:
 - Image: "/uploads/001_1239-milwaukee-ave-chicago-illinois.jpg"
 - Image: "/uploads/001_1647-milwaukee-avenue-chicago-71f871.jpg"
