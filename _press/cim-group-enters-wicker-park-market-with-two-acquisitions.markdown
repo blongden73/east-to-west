@@ -1,6 +1,7 @@
 ---
 title: CIM Group enters wicker park market with two acquisitions
 date: 2021-05-03 18:13:00 Z
+position: 3
 Image: "/uploads/fit.jpg"
 Link: https://www.bisnow.com/chicago/news/mixed-use/cim-group-enters-wicker-park-market-with-two-acquisitions-74501
 ---
