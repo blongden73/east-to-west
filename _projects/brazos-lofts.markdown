@@ -3,7 +3,7 @@ title: Brazos Lofts
 date: 2021-04-26 00:01:00 Z
 tags:
 - Residential
-position: 12
+position: 13
 Images:
 - Image: "/uploads/brazos.jpg"
 - Image: "/uploads/brazos2.jpg"
