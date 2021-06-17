@@ -139,7 +139,7 @@ layout: default
     </div>
   </div>
 </section>
-<section class="ew-press">
+<section id="press" class="ew-press">
   <div class="wrapper ">
     <h1 class="mega">
       Press
