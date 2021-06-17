@@ -52,4 +52,4 @@ Content text: "MIAMI (June 17, 2021)—Ithaca-based Visum Development Group LLC 
 layout: Press
 ---
 
-MIAMI (June 17, 2021)—Ithaca-based Visum Development Group LLC and its equity partners, including UK real estate private equity firm East To West Capital
+MIAMI (June 17, 2021)—Ithaca-based Visum Development Group LLC and its equity partners, including UK real estate private equity firm East To West Capital, today announced they have sold The Lux and The Lofts, two top-tier student housing complexes comprised of 281 beds located next to Cornell University in Ithaca.
