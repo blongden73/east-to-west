@@ -9,7 +9,7 @@ Content text: "MIAMI (June 17, 2021)—Ithaca-based Visum Development Group LLC 
   today announced they have sold The Lux and The Lofts, two top-tier student housing
   complexes comprised of 281 beds located next to Cornell University in Ithaca, NY
   to Harrison Street, one of the leading investment management firms exclusively focused
-  on alternative real assets.\n\n“Ithaca, New York and Cornell University represent
+  on alternative real assets.\n\n> “Ithaca, New York and Cornell University represent
   one of the most attractive student housing markets in the country from a supply
   and demand perspective,” said Andrea Cassandro, Managing Partner, East To West Capital.
   “This market characteristic is made possible by the great demand and the barriers
