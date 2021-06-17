@@ -3,7 +3,7 @@ title: Baylor University
 date: 2021-04-26 00:07:00 Z
 tags:
 - Student Housing
-position: 12
+position: 13
 Images:
 - Image: "/uploads/001_1647-milwaukee-avenue-chicago-d75bf8.jpg"
 - Image: "/uploads/001_brazos-lofts%20(1).jpg"
