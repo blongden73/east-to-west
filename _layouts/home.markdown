@@ -148,7 +148,8 @@ layout: default
   <div class="ew-carousel">
     <div class="glider-contain">
       <div class="glider">
-        {% for press in site.press %}
+        {%assign pressList = site.press | sort: "position" %}
+        {% for press in pressList %}
           <div class="press-card">
             <a href="{{press.Link}}"></a>
             <div class="press-image">
