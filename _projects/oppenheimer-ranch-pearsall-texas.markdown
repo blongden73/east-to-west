@@ -11,7 +11,7 @@ Images:
 Cover Image: "/uploads/9252_dji_0379x.jpg"
 Type: Land
 Location: Texas
-Video: "/uploads/Herbert%20Oppenheimer%20Ranch%20(1)%20(1).mp4"
+Video: "/uploads/ranch_e2w.mp4"
 layout: project
 ---
 
