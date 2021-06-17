@@ -1,7 +1,7 @@
 ---
 title: University of Arkansas
 date: 2021-05-03 17:50:00 Z
-position: 8
+position: 7
 Images:
 - Image: "/uploads/002_university-of-arkansas.jpg"
 - Image: "/uploads/003_university-of-arkansas.jpg"
