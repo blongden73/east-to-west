@@ -3,7 +3,7 @@ title: 4719 Harmon Avenue
 date: 2021-04-26 00:10:00 Z
 tags:
 - Residential
-position: 8
+position: 9
 Images:
 - Image: "/uploads/002_1647-milwaukee-avenue-chicago-74749e.jpg"
 - Image: "/uploads/002_4719-harmon-ave-austin-texas.jpg"
