@@ -1,7 +1,7 @@
 ---
 title: The Lux, Cornell University
 date: 2021-05-03 17:48:00 Z
-position: 7
+position: 1
 Images:
 - Image: "/uploads/001_1647-milwaukee-avenue-chicago-e0351b.jpg"
 - Image: "/uploads/001_brazos-lofts-a6a92a.jpg"
