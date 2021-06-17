@@ -52,3 +52,4 @@ Content text: "MIAMI (June 17, 2021)—Ithaca-based Visum Development Group LLC 
 layout: Press
 ---
 
+MIAMI (June 17, 2021)—Ithaca-based Visum Development Group LLC and its equity partners, including UK real estate private equity firm East To West Capital
