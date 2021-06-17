@@ -1,6 +1,6 @@
 ---
-title: East To West Capital Sell High Quality Off-Campus Student Housing Portfolio
-  Serving Cornell University in Ithaca to Harrison Street
+title: East To West Capitial Sell Student Housing Portfolio Serving Cornell University
+  in Ithaca to Harrison Street
 date: 2021-06-17 14:07:00 Z
 position: 0
 Image: "/uploads/171CCA151E73F546FA0E0E91EEA8E3BA.JPG"
