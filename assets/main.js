@@ -97,43 +97,45 @@ function video() {
 
 function counting(){
   var projectNumber = document.querySelector('#projects');
-  document.addEventListener('scroll', function(){
-    if(elementInViewport(projectNumber) && !projectNumber.classList.contains('counted') && !projectNumber.classList.contains('projectPage')){
+  if(projectNumber){
+    document.addEventListener('scroll', function(){
+      if(elementInViewport(projectNumber) && !projectNumber.classList.contains('counted') && !projectNumber.classList.contains('projectPage')){
+        setTimeout(function(){
+        var countUp = new CountUp('projects', 0, 29);
+        countUp.start();
+        projectNumber.classList.add('counted');
+      }, 100)
+
+        setTimeout(function(){
+        var countUpTwo = new CountUp('cities', 0, 19);
+        countUpTwo.start();
+      }, 200)
+
+        setTimeout(function(){
+        var countUpThree = new CountUp('states', 0, 12);
+        countUpThree.start();
+      }, 300)
+      }else if(!elementInViewport(projectNumber)){
+        projectNumber.classList.remove('counted');
+      }
+    });
+    if(projectNumber.classList.contains('projectPage')){
       setTimeout(function(){
-      var countUp = new CountUp('projects', 0, 29);
-      countUp.start();
-      projectNumber.classList.add('counted');
-    }, 100)
+        var countUp = new CountUp('projects', 0, 29);
+        countUp.start();
+        projectNumber.classList.add('counted');
+      }, 100)
 
       setTimeout(function(){
-      var countUpTwo = new CountUp('cities', 0, 19);
-      countUpTwo.start();
-    }, 200)
+        var countUpTwo = new CountUp('cities', 0, 19);
+        countUpTwo.start();
+      }, 200)
 
       setTimeout(function(){
-      var countUpThree = new CountUp('states', 0, 12);
-      countUpThree.start();
-    }, 300)
-    }else if(!elementInViewport(projectNumber)){
-      projectNumber.classList.remove('counted');
+        var countUpThree = new CountUp('states', 0, 12);
+        countUpThree.start();
+      }, 300)
     }
-  });
-  if(projectNumber.classList.contains('projectPage')){
-    setTimeout(function(){
-      var countUp = new CountUp('projects', 0, 29);
-      countUp.start();
-      projectNumber.classList.add('counted');
-    }, 100)
-
-    setTimeout(function(){
-      var countUpTwo = new CountUp('cities', 0, 19);
-      countUpTwo.start();
-    }, 200)
-
-    setTimeout(function(){
-      var countUpThree = new CountUp('states', 0, 12);
-      countUpThree.start();
-    }, 300)
   }
 }counting();
 
@@ -148,23 +150,25 @@ function filter(){
   var allProjects = document.querySelectorAll('.portfolio-card');
   var zeroprojects = document.querySelector('.zero-projects');
   var filters = document.querySelector('.types');
-  var list = filters.querySelectorAll('li');
-  for(g=0; g<list.length; g++){
-    list[g].addEventListener('click', function(){
-      console.log('click');
-      var selected = this.dataset.type;
-      var tidyUrl = selected.toLowerCase();
-      var selector = '[data-type="' + tidyUrl + '"]';
-      var projectsSelected = document.querySelectorAll(selector);
-      this.classList.toggle('show');
+  if (filters) {
+    var list = filters.querySelectorAll('li');
+    for(g=0; g<list.length; g++){
+      list[g].addEventListener('click', function(){
+        console.log('click');
+        var selected = this.dataset.type;
+        var tidyUrl = selected.toLowerCase();
+        var selector = '[data-type="' + tidyUrl + '"]';
+        var projectsSelected = document.querySelectorAll(selector);
+        this.classList.toggle('show');
 
-      for(j=0; j<allProjects.length; j++){
-        allProjects[j].classList.add('hide');
-      }
-      for(i=0; i<projectsSelected.length; i++){
-        projectsSelected[i].classList.add('show');
-      }
-    });
+        for(j=0; j<allProjects.length; j++){
+          allProjects[j].classList.add('hide');
+        }
+        for(i=0; i<projectsSelected.length; i++){
+          projectsSelected[i].classList.add('show');
+        }
+      });
+    }
   }
   console.log(projectsSelected);
   if(url.includes('?')) {
@@ -180,3 +184,14 @@ function filter(){
     }
   }
 }filter();
+
+function video(){
+  var playButton = document.querySelector('.playButton');
+  playButton.addEventListener('click', function(){
+    console.log(this.nextSibling.nextElementSibling);
+    if(this.nextSibling.nextElementSibling.paused){
+      this.nextSibling.nextElementSibling.play();
+      this.classList.add('hide');
+    }
+  });
+}video();

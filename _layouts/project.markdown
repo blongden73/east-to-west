@@ -35,14 +35,15 @@ layout: default
       <div uk-parallax="y: -300" class="right block">
         <div class="flex small">
           <div class="num full">
-            <p class="large serif">Play</p>
+
           </div>
         </div>
       </div>
     </div>
     <div uk-parallax="y: -200" class="ew-image full">
       <p class="locator-text"><span uk-icon="icon: location; ratio: 0.8"></span> <a href="{{page.permalink}}">{{page.title}}</a></p>
-      <video autoplay muted loop playsinline>
+      <div class="playButton">Play</div>
+      <video muted>
         <source src="{{page.Video}}" type="video/mp4">
       </video>
     </div>

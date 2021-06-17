@@ -981,3 +981,22 @@ footer {
     width: 49%;
   }
 }
+
+.playButton {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    color: #030323;
+    padding: 10px;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #fff;
+    z-index: 1000;
+
+    &.hide {
+      display: none;
+    }
+}
