@@ -48,7 +48,29 @@ Content text: "MIAMI (June 17, 2021)—Ithaca-based Visum Development Group LLC 
   Ben Harkrider, Transaction Manager, of the Multifamily Capital Markets division
   of NEWMARK, were the exclusive marketing representatives for Visum Development and
   East To West Capital. NEWMARK also represented Harrison Street in this off-market
-  transaction.\n\n"
+  transaction.\n\n### About East To West Capital\nEast To West Capital is an independent
+  private equity group specializing in real estate investments in the U.S. and Europe.
+  East To West Capital is privately owned and was founded by and is managed on behalf
+  of the interests of a high net worth family office. The firm invests across all
+  real estate asset classes, primarily through new build construction with experienced
+  local partners. East To West Capital invests where strong macro-economic factors—job
+  creation, education and population growth—exist and are coupled with relative value
+  and future capital upside potential.\n\n### About Visum Development Group:\nVisum
+  Development Group is an Ithaca based real estate development company specializing
+  in new construction and redevelopment of student, residential and commercial properties
+  in select high barrier to entry markets across the US.\n\n### About Harrison Street\nHarrison
+  Street is one of the leading investment management firms exclusively focused on
+  alternative real assets. Since inception in 2005, the firm has created a series
+  of differentiated investment solutions focused on demographic-driven, needs-based
+  assets. The firm has invested across senior housing, student housing, healthcare
+  delivery, life sciences and storage real estate as well as social and utility infrastructure.
+  Headquartered in Chicago with offices in London and Toronto, the firm has more than
+  190-employees and approximately $33 billion in assets under management. Clients
+  of the firm include a global institutional investor base domiciled in North America,
+  Europe, Middle East, Asia and Latin America. Harrison Street has been awarded Best
+  Places to Work by Pensions & Investments for the last seven consecutive years and
+  was named 2020 Global Alternatives Investor of the Year by PERE. For more information,
+  please visit [www.harrisonst.com](www.harrisonst.com).  \n\n\n"
 layout: Press
 ---
 
