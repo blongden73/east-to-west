@@ -187,6 +187,7 @@ function filter(){
 
 function video(){
   var playButton = document.querySelector('.playButton');
+  if(playButton){
   playButton.addEventListener('click', function(){
     console.log(this.nextSibling.nextElementSibling);
     if(this.nextSibling.nextElementSibling.paused){
@@ -194,4 +195,5 @@ function video(){
       this.classList.add('hide');
     }
   });
+  }
 }video();
