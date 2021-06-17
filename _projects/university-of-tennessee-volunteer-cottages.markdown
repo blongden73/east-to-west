@@ -1,7 +1,7 @@
 ---
 title: University of Tennessee, Volunteer Cottages
 date: 2021-05-24 22:59:00 Z
-position: 7
+position: 8
 Images:
 - Image: "/uploads/DJI_0095.JPG"
 - Image: "/uploads/IMG_1820.jpg"
