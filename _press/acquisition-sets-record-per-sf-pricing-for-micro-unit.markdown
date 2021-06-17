@@ -1,6 +1,7 @@
 ---
 title: Acquisition sets record per sf pricing for micro-unit
 date: 2021-05-03 18:11:00 Z
+position: 1
 Image: "/uploads/press2.jpg"
 Link: https://www.globest.com/2019/03/18/acquisition-sets-record-per-sf-pricing-for-micro-units/?slreturn=20210403141244
 ---

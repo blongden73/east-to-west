@@ -2,6 +2,7 @@
 title: East To West Capital Sell High Quality Off-Campus Student Housing Portfolio
   Serving Cornell University in Ithaca
 date: 2021-06-17 14:07:00 Z
+position: 0
 Image: https://easttowestcapital.com/uploads/001_brazos-lofts-a6a92a.jpg
 Link: "/press/visum-development-and-east-to-west-capital-sell-high-quality-off-campus-student-housing-portfolio"
 Content text: "MIAMI (June 17, 2021)—Ithaca-based Visum Development Group LLC and

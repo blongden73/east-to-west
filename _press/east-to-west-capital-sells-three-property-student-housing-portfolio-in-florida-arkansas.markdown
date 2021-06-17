@@ -2,6 +2,7 @@
 title: East To West Capital Sells Three-Property Student Housing Portfolio in Florida,
   Arkansas
 date: 2021-05-03 21:38:00 Z
+position: 4
 Image: "/uploads/006_1647-milwaukee-avenue-chicago-e799c5.jpg"
 Link: https://www.studenthousingbusiness.com/tag/east-to-west-capital/
 ---
