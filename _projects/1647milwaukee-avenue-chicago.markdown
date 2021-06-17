@@ -1,7 +1,7 @@
 ---
 title: 1647 Milwaukee Avenue
 date: 2021-05-03 17:41:00 Z
-position: 3
+position: 0
 Images:
 - Image: "/uploads/001_1647-milwaukee-avenue-chicago-ea20c1.jpg"
 - Image: "/uploads/002_1647-milwaukee-avenue-chicago-51cc77.jpg"
