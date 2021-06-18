@@ -1,5 +1,5 @@
 ---
-title: East To West Capitial Sell Student Housing Portfolio Serving Cornell University
+title: East To West Capital Sell Student Housing Portfolio Serving Cornell University
   in Ithaca to Harrison Street
 date: 2021-06-17 14:07:00 Z
 position: 0
