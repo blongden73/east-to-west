@@ -14,7 +14,7 @@ layout: default
           <div class="project-image-wrapper">
             <img src="{{case.['Cover Image']}}">
             <div class="project-info">
-              <h2>{{case.Location}} • {{case.Type}}</h2>
+              <h2>{{case.Type}}</h2>
               <p class="large serif">
                 {{case.title}}
               </p>
