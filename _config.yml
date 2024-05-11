@@ -54,6 +54,15 @@ defaults:
     Success Description: 
     Cover Image: 
     Type: Residential
+    Table:
+    - Sales Price:
+    - Profit on Cost:
+    - Equity Invested:
+    - Total Return:
+    - Profit on Equity $:
+    - Profit on Equity %:
+    - Dates Funded & Sold:
+    - Months Duration:
 permalink: pretty
 sass:
   sass_dir: "./_scss"
