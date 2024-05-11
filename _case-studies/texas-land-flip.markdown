@@ -12,6 +12,7 @@ Success Description: Our acquisition price was $23,890,100 and we sold the land 
   over the space of one year to reach full sell out by February 2022 at a total price
   of $29,621,747 a profit of $5,731,647 on $6,840,100 of equity invested and an 85%
   Gross Profit.
+Cover Image: 
 layout: case
 ---
 
