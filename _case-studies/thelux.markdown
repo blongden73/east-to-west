@@ -1,4 +1,4 @@
 ---
-title: Thelux
+title: The lux
 ---
 
