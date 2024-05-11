@@ -16,6 +16,15 @@ Success Description: |-
   The same buyer also bought our Portland micro-unit project at the same time.
 Cover Image: "/uploads/001_111-21st-ave-e-seattle-washington-91c5f3.jpg"
 Type: Multifamily Residential
+Table:
+- Sales Price: "$17,500,000"
+- Profit on Cost: 99%
+- Equity Invested: "$1,700,000"
+- Total Return: "$6,943,531"
+- Profit on Equity $: "$5,243,531"
+- Profit on Equity %: 308%
+- Dates Funded & Sold: Apr’16 – Dec’18
+- Months Duration: 33
 layout: case
 ---
 
