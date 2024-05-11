@@ -48,11 +48,11 @@ defaults:
     path: ''
     type: case-studies
   values:
-    Intro:
-    Stat:
-    Strategy Description:
-    Success Description:
-    Cover Image:
+    Intro: 
+    Stat: 
+    Strategy Description: 
+    Success Description: 
+    Cover Image: 
     Type: Residential
 permalink: pretty
 sass:
