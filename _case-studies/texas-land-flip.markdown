@@ -13,6 +13,7 @@ Success Description: Our acquisition price was $23,890,100 and we sold the land 
   of $29,621,747 a profit of $5,731,647 on $6,840,100 of equity invested and an 85%
   Gross Profit.
 Cover Image: "/uploads/9252_dji_0379x.jpg"
+Type: Land
 layout: case
 ---
 
