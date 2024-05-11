@@ -16,6 +16,15 @@ Success Description: |-
   The sale meant that on the $2m equity originally invested, there was a total profit of $3.6m.
 Cover Image: "/uploads/171CCA151E73F546FA0E0E91EEA8E3BA.JPG"
 Type: Student Housing
+Table:
+- Sales Price: "$44,702,717"
+- Profit on Cost: 85%
+- Equity Invested: "$2,000,000"
+- Total Return: "$5,621,542"
+- Profit on Equity $: "$3,621,542"
+- Profit on Equity %: 181%
+- Dates Funded & Sold: Aug’17 – Jun’21
+- Months Duration: 18
 layout: case
 ---
 
