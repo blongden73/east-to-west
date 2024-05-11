@@ -415,7 +415,7 @@ body {
   background-color: map_get($colors, 'dark');
   font-family: 'Gotham';
 
-  &.portfolio {
+  &.portfolio, &.case-studies {
     background-color: map_get($colors, 'cream');
   }
 }

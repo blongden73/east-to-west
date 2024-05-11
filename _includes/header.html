@@ -1,6 +1,6 @@
 {% assign nav = site.menu | sort:"position" %}
 {{nav}}
-<header class="{%if page.title == 'Home' or page.title == 'Who we are' %}absolute{% endif %}{%if page.title == 'Portfolio' %}cream{% endif %}">
+<header class="{%if page.title == 'Home' or page.title == 'Who we are' %}absolute{% endif %}{%if page.title == 'Portfolio' or page.title == 'Case Studies' %}cream{% endif %}">
   <div class="wrapper header">
     <div class="flex mobile">
       <div class="left">

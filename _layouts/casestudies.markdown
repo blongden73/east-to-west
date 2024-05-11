@@ -7,7 +7,7 @@ layout: default
     <h1 class="mega">Case Studies</h1>
     <div class="zero-projects">! We currently don't have these projects on our site, please email for more details</div>
     <div class="flex portfolio-wrapper">
-      {% assign caseStudies = site.projects | sort: "position" %}
+      {% assign caseStudies = site.case-studies | sort: "position" %}
       {% for case in caseStudies %}
         <div data-type="{{case.Type | slugify}}" class="third portfolio-card">
           <a href="{{case.url}}"></a>
