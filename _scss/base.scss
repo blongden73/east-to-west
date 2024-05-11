@@ -30,6 +30,17 @@ $breakpoints: (
   }
 }
 
+@mixin flexReverse($width, $justify) {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: $justify;
+  flex-wrap: wrap;
+
+  @include mq('desktop') {
+    flex-direction: row;
+  }
+}
+
 @mixin underline($color){
   &:hover {
     &:after {
@@ -299,10 +310,22 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 200;
+
+  &.boosted {
+    font-size: 18px;
+  }
 }
 
 h3 {
   font-family: 'Big Caslon';
+  font-weight: 200;
+}
+
+h4 {
+  font-family: 'Gotham';
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   font-weight: 200;
 }
 
@@ -1043,4 +1066,54 @@ blockquote {
     font-size: 24px;
     color: #fff;
   }
+}
+
+.flex-case {
+  @include flexReverse (50%, space-between);
+
+  div {
+    width: 100%;
+
+    @include mq('desktop'){
+      width: 50%;
+    }
+  }
+
+  .right {
+    margin-bottom: 20px;
+
+    @include mq('desktop'){
+      margin-bottom: 0;
+    }
+  }
+
+  .left {
+    width: 100%;
+
+    @include mq('desktop'){
+      width: 40%;
+    }
+  }
+}
+
+.white {
+  color: map_get($colors, 'white');
+}
+
+.case-headline {
+  font-family: 'Big Caslon';
+}
+
+.stat-number {
+  font-style: normal;
+  font-family: 'Dala Floda Roman';
+  font-size: 120px;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.stat-caption {
+  color: #fff;
+  display: block;
+  line-height: 1;
 }
