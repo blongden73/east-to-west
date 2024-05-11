@@ -44,6 +44,16 @@ defaults:
     Cover Image: "/uploads/001_brazos-lofts.jpg"
     Type: Residential
     Location: Location
+- scope:
+    path: ''
+    type: case-studies
+  values:
+    Intro:
+    Stat:
+    Strategy Description:
+    Success Description:
+    Cover Image:
+    Type: Residential
 permalink: pretty
 sass:
   sass_dir: "./_scss"
