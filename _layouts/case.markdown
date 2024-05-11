@@ -16,6 +16,19 @@ layout: default
                 {% assign stats = page.Stat | split: '|' %}
                 <span class="stat-number">{{stats.[0]}}</span><span class="stat-caption">{{stats.[1]}}</span>
             </div>
+            <div class="table">
+                {% assign table = page.Table %}
+                {% if table.['Sales Price'] %}
+                    <span class="tb-rw">Sales Price {{ table.['Sales Price'] }}</span>
+                    <span class="tb-rw">Profit on Cost {{ table.['Profit on Cost'] }}</span>
+                    <span class="tb-rw">Equity Invested' {{ table.['Equity Invested'] }}</span>
+                    <span class="tb-rw">Total Return {{ table.['Total Return'] }}</span>
+                    <span class="tb-rw">Profit on Equity $ {{ table.['Profit on Equity $'] }}</span>
+                    <span class="tb-rw">Profit on Equity % {{ table.['Profit on Equity %'] }}</span>
+                    <span class="tb-rw">Dates Funded & Sold {{ table.['Dates Funded & Sold'] }}</span>
+                    <span class="tb-rw">Months Duration {{ table.['Months Duration'] }}</span>
+                {% endif %}
+            </div>
         </div>
         <div class="right">
             <img src="{{page.['Cover Image']}}">
