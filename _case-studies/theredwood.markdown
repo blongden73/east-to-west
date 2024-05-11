@@ -16,5 +16,6 @@ Success Description: |-
   The same buyer also bought our Portland micro-unit project at the same time.
 Cover Image: "/uploads/001_111-21st-ave-e-seattle-washington-91c5f3.jpg"
 Type: Multifamily Residential
+layout: case
 ---
 
