@@ -16,5 +16,6 @@ Success Description: |-
   The sale meant that on the $2m equity originally invested, there was a total profit of $3.6m.
 Cover Image: "/uploads/171CCA151E73F546FA0E0E91EEA8E3BA.JPG"
 Type: Student Housing
+layout: case
 ---
 
