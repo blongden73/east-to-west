@@ -1,4 +1,4 @@
 ---
-title: Theredwood
+title: The Redwood
 ---
 
