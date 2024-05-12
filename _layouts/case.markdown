@@ -18,15 +18,15 @@ layout: default
             </div>
             <div class="table">
                 {% assign table = page.Table %}
-                {% if table.['Sales Price'] %}
-                    <span class="tb-rw">Sales Price {{ table.['Sales Price'] }}</span>
-                    <span class="tb-rw">Profit on Cost {{ table.['Profit on Cost'] }}</span>
-                    <span class="tb-rw">Equity Invested' {{ table.['Equity Invested'] }}</span>
-                    <span class="tb-rw">Total Return {{ table.['Total Return'] }}</span>
-                    <span class="tb-rw">Profit on Equity $ {{ table.['Profit on Equity $'] }}</span>
-                    <span class="tb-rw">Profit on Equity % {{ table.['Profit on Equity %'] }}</span>
-                    <span class="tb-rw">Dates Funded & Sold {{ table.['Dates Funded & Sold'] }}</span>
-                    <span class="tb-rw">Months Duration {{ table.['Months Duration'] }}</span>
+                {% if table.[0]['Sales Price'] %}
+                    <span class="tb-rw">Sales Price <span class="tb-rw-info">{{ table.[0]['Sales Price']}}</span></span>
+                    <span class="tb-rw">Profit on Cost <span class="tb-rw-info">{{ table.[1]['Profit on Cost'] }}</span></span>
+                    <span class="tb-rw">Equity Invested' <span class="tb-rw-info">{{ table.[2]['Equity Invested'] }}</span></span>
+                    <span class="tb-rw">Total Return <span class="tb-rw-info">{{ table.[3]['Total Return'] }}</span></span>
+                    <span class="tb-rw">Profit on Equity $ <span class="tb-rw-info">{{ table.[4]['Profit on Equity $'] }}</span></span>
+                    <span class="tb-rw">Profit on Equity % <span class="tb-rw-info">{{ table.[5]['Profit on Equity %'] }}</span></span>
+                    <span class="tb-rw">Dates Funded & Sold <span class="tb-rw-info">{{ table.[6]['Dates Funded & Sold'] }}</span></span>
+                    <span class="tb-rw">Months Duration <span class="tb-rw-info">{{ table.[7]['Months Duration'] }}</span></span>
                 {% endif %}
             </div>
         </div>

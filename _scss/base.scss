@@ -1117,3 +1117,21 @@ blockquote {
   display: block;
   line-height: 1;
 }
+
+.tb-rw {
+  border-top: 1px solid #fff;
+  width: 100%;
+  display: block;
+  padding-top: 2px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.tb-rw-info {
+  font-weight: 800;
+}
+
+.table {
+  margin-top: 30px;
+  width: 100% !important;
+}
