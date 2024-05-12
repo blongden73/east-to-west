@@ -765,6 +765,14 @@ header {
   h1 {
     color: map_get($colors, 'dark');
     margin-bottom: 120px;
+
+    .case-studies & {
+      margin-bottom: 20px;
+
+      @include mq('desktop') {
+        margin-bottom: 120px;
+      }
+    }
   }
 
   .types {
